@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name" translatable="false">baladiti</string>
+    <string name="Open" translatable="false">baladiti</string>
+    <string name="Close" translatable="false">baladiti</string>
+    <string name="matbo3at">" Municipal documents"</string>
+    <string name="majlis">Compostion of the Municipal Council</string>
+    <string name="nafadh">Acces to information</string>
+    <string name="dalil">"Business directories "</string>
+    <string name="hisab">Register</string>
+    <string name="barid">"Email Address "</string>
+    <string name="kalimt">"Password "</string>
+    <string name="nasit">Forgot Your Password?</string>
+    <string name="la9ab">Prénom</string>
+    <string name="اchakawi">E-Claim</string>
+    <string name="istitla3">Polls</string>
+    <string name="do5oul">Login</string>
+    <string name="ism">Username</string>
+    <string name="tasjil">Register</string>
+    <string name="baladiti">Baladiti</string>
+    <string name="matlib" translatable="false">Access to information</string>
+    <string name="tahrir" translatable="false">Request information</string>
+
+
+</resources>

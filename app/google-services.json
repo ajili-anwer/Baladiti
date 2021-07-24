@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "41878771889",
+    "firebase_url": "https://baladiti-d3e69.firebaseio.com",
+    "project_id": "baladiti-d3e69",
+    "storage_bucket": "baladiti-d3e69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41878771889:android:e91b7dfda54f4e44ad2a90",
+        "android_client_info": {
+          "package_name": "com.example.baladiti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41878771889-k6kqqk51figlee8osgr3nta0og3m25q5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.baladiti",
+            "certificate_hash": "8810c871e2d9d8e276227ec808719a4b86bc08c2"
+          }
+        },
+        {
+          "client_id": "41878771889-pvb3su2kl3jtjejfb8tmolq0eq0oefla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNLIPKSpEQ30mZpWV2ss5mXj0TScGwyhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41878771889-pvb3su2kl3jtjejfb8tmolq0eq0oefla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

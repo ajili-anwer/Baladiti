@@ -1,0 +1,22 @@
+
+<resources>
+    <string name="اchakawi">التصرف في الشكاوى</string>
+    <string name="matbo3at">مطبوعات للتحميل</string>
+    <string name="majlis"> تركيبة المجلس البلدي</string>
+    <string name="nafadh"> النفاذ إلى المعلومة</string>
+    <string name="istitla3">إستطلاعات الرأي</string>
+    <string name="dalil"> دليل المؤسسات</string>
+    <string name="hisab">إنشاء حساب</string>
+    <string name="barid">البريد الالكتروني</string>
+    <string name="kalimt">كلمة المرور</string>
+    <string name="nasit">نسيت كلمة المرور ؟</string>
+    <string name="do5oul">دخول</string>
+    <string name="ism">الاسم</string>
+    <string name="la9ab">اللقب</string>
+    <string name="tasjil">تسجيل</string>
+    <string name="baladiti">بلديتي</string>
+    <string name="tahrir" translatable="false">تحرير طلب</string>
+    <string name="matlib" translatable="false">مطالة</string>
+
+
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:padding="8dp"
+    app:cardBackgroundColor="#F5F5F5"
+    app:cardCornerRadius="10dp">
+
+    <ImageView
+        android:background="@drawable/ic_risk"
+        android:id="@+id/image_rec"
+        android:layout_width="91dp"
+        android:layout_height="136dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="13dp"
+            android:text="الفئة"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/spinner_tv"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/spinner_tv"
+            android:layout_width="244dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="11dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="10dp"
+            android:text="الموضوع"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/sujet_tv"
+            android:layout_width="241dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="13dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_tv" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="51dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="13dp"
+            android:text="العنوان"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/adresse_tv"
+            app:layout_constraintTop_toBottomOf="@+id/sujet_tv" />
+
+        <TextView
+            android:id="@+id/adresse_tv"
+            android:layout_width="244dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sujet_tv" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="20dp"
+            android:text="نشرت في"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textDate_tv"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textDate_tv"
+            android:layout_width="174dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/view2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adresse_tv" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:background="#606060"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textDate_tv" />
+
+        <!-- <com.jackandphantom.androidlikebutton.AndroidLikeButton
+            android:id="@+id/likebtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:circle_endColor="#2475B0"
+            app:circle_startColor="@color/black"
+            app:dot_active="true"
+            app:dot_color_1="@color/black"
+            app:dot_color_2="#2475B0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2"
+            app:layout_constraintVertical_bias="0.0"
+            app:like_icon="@drawable/handd">
+
+        </com.jackandphantom.androidlikebutton.AndroidLikeButton> -->
+
+        <com.jackandphantom.androidlikebutton.AndroidLikeButton
+            android:id="@+id/likebtn"
+            android:layout_width="42dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="12dp"
+            app:circle_endColor="#3498DB"
+            app:circle_startColor="#E71C23"
+            app:dot_active="true"
+            app:dot_color_1="#E71C23"
+            app:dot_color_2="#3498DB"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2"
+            android:background="@drawable/hand">
+
+        </com.jackandphantom.androidlikebutton.AndroidLikeButton>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="14dp"
+            android:text="دعم"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/likebtn"
+            app:layout_constraintTop_toBottomOf="@+id/view2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/mark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView21"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="16dp"
+            android:text="تم إستلام الشكوى"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+            app:layout_constraintTop_toBottomOf="@+id/view2"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

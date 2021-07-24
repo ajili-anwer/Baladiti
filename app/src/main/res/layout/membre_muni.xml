@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Membre_muni"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#4169E1"
+        app:title="تركيبة المجلس البلدي "
+        app:titleMarginStart="140dp"
+        app:titleMarginBottom="20dp"
+        tools:ignore="MissingConstraints">
+    </androidx.appcompat.widget.Toolbar>
+
+   <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="المهمة "
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="الحزب سياسي "
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="الاسم و اللقب "
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:gravity="center"/>
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="عضو"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="  حزب حركة النهضة"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="   محسن	زريقة "
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="عضو"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="  حزب حركة النهضة"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="إيمان	حرشاني"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="مساعد ثالث"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="  حزب حركة النهضة"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="	عيسى	حمد"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" عضو"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="  حزب حركة النهضة"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="	عاطفة	دلالي	"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+
+       </TableRow>
+
+       <TableRow>
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" عضو"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="  حزب حركة النهضة"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="طارق	عمراني"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+
+       </TableRow>
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" عضو"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="  حزب حركة النهضة"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="سنى	الأجري"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" عضو"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" حركة نداء تونس"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="سميرة	تلي"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" رئيس البلدية"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" حركة نداء تونس"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="حلمي	الهاني"
+               android:layout_weight="1"
+               android:layout_gravity="center"/>
+
+
+       </TableRow>
+   </TableLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="اchakawi">E-Réclamation</string>
+    <string name="matbo3at">Documents municipaux</string>
+    <string name="majlis">Compostion du Conseil Municipal</string>
+    <string name="nafadh">Accés à l\'information</string>
+    <string name="istitla3">Songades</string>
+    <string name="dalil">Annuaires des entreprises</string>
+    <string name="hisab">S\'inscrire</string>
+    <string name="barid">Adresse courriel</string>
+    <string name="kalimt">Mot de passe</string>
+    <string name="nasit">Vous avez oublié votre mot de passe?</string>
+    <string name="do5oul">Se connecter</string>
+    <string name="ism">Nom</string>
+    <string name="la9ab">Prénom</string>
+    <string name="tasjil">S\'inscrire</string>
+    <string name="matlib" translatable="false">Accès à l\'information</string>
+    <string name="tahrir" translatable="false">Demander information</string>
+    <string name="baladiti">Baladiti</string>
+</resources>
